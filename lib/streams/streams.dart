@@ -1,6 +1,6 @@
 main() async {
   //Streams
-  var data = getData().asBroadcastStream();
+  // var data = getData().asBroadcastStream();
   //single subscription stream
 //   data.listen((int e) {
 //     print('e=$e');

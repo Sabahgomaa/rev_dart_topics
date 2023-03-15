@@ -2,9 +2,9 @@ import 'dart:core';
 
 
 extension on num {
-  num toCelsius() => (this - 32) / 1.8;
-
-  num toFahrenheit() => this + 1.8 + 32;
+  // num toCelsius() => (this - 32) / 1.8;
+  //
+  // num toFahrenheit() => this + 1.8 + 32;
 }
 extension on Iterable<int>{
   int sum(){
@@ -17,7 +17,7 @@ extension on Iterable<int>{
 }
 main() {
   //Dart Extension Methods
-  String x = '33';
+  //String x = '33';
   // // var y =x.parseInt();
   // var y = MyString(x).parseInt();
   // print(y * 2);
